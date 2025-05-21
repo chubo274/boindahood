@@ -7,7 +7,7 @@ A simple React Native component to truncate long text and toggle between "show m
 
 ## 📽 Demo Preview
 
-![Demo](./assets/gif-text-truncate-show-more.gif)
+![Demo](https://raw.githubusercontent.com/chubo274/boindahood/react-native/text-truncate-show-more/text-truncate-show-more/assets/gif-text-truncate-show-more.gif)
 
   
 
