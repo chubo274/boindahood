@@ -1,0 +1,41 @@
+{
+  "name": "@boindahood/text-truncate-show-more",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react-native",
+    "text",
+    "truncate",
+    "show more",
+    "show less",
+    "text-expand",
+    "read more",
+    "text-truncate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chubo274/boindahood"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build",
+    "publish": "npm version patch && npm publish"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.64.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
